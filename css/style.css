@@ -201,6 +201,9 @@ a {
   .front-text {
     font-size: 32px;
   }
+  .front-text i {
+    font-size: 40px;
+  }
   .front-text .box-relative {
     height: 260px;
   }
@@ -242,6 +245,9 @@ a {
   .front-text {
     font-size: 32px;
   }
+  .front-text i {
+    font-size: 44px;
+  }
   .front-text .box-relative {
     height: 260px;
   }
@@ -273,13 +279,34 @@ a {
     font-size: 32px;
   }
 }
-@media (min-width: 1439px) {
+@media (min-width: 1400px) {
+  .front-text {
+    font-size: 38px;
+  }
+  .front-text i {
+    font-size: 50px;
+  }
+  .front-text .box-relative {
+    height: 300px;
+  }
   .front-text .box-relative .box1,
   .front-text .box-relative .box2,
   .front-text .box-relative .box3,
   .front-text .box-relative .box4,
   .front-text .box-relative .box5,
   .front-text .box-relative .box6 {
-    width: 1000px;
+    width: 900px;
+  }
+  .front-text .box-relative .box2 {
+    top: -40px;
+  }
+  .front-text .box-relative .box3 {
+    height: 200px;
+  }
+  .front-text .box-relative .box3 p {
+    font-size: 56px;
+  }
+  .recomend {
+    font-size: 38px;
   }
 }/*# sourceMappingURL=style.css.map */
