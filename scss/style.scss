@@ -233,9 +233,6 @@ a {
 		padding-top: 50px;
 	}
 
-	.recomend {
-		font-size: 26px;
-	}
 	.contact-form {
 		font-size: 32px;
 	}
@@ -278,8 +275,19 @@ a {
 			}
 		}
 	}
-	.recomend {
+	.recomend-group {
 		font-size: 32px;
+		h2 {
+			font-size: 32px;
+		}
+		p {
+			font-size: 32px;
+		}
+	}
+	.end {
+		h2 {
+			font-size: 32px;
+		}
 	}
 }
 
@@ -322,12 +330,23 @@ a {
 	}
 	.recomend {
 		font-size: 32px;
+		h2 {
+			font-size: 32px;
+		}
+		p {
+			font-size: 32px;
+		}
+	}
+	.end {
+		h2 {
+			font-size: 32px;
+		}
 	}
 }
 
 @media (min-width: 1400px) {
 	.front-text {
-		font-size: 38px;
+		font-size: 36px;
 		i {
 			font-size: 50px;
 		}
@@ -352,7 +371,18 @@ a {
 			}
 		}
 	}
-	.recomend {
+	.recomend-group {
 		font-size: 38px;
+		h2 {
+			font-size: 38px;
+		}
+		p {
+			font-size: 38px;
+		}
+	}
+	.end {
+		h2 {
+			font-size: 38px;
+		}
 	}
 }
