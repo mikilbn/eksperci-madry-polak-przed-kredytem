@@ -189,9 +189,6 @@ a {
   .header-text {
     padding-top: 50px;
   }
-  .recomend {
-    font-size: 26px;
-  }
   .contact-form {
     font-size: 32px;
   }
@@ -234,7 +231,16 @@ a {
   .front-text .box-relative .box5 {
     top: -30px;
   }
-  .recomend {
+  .recomend-group {
+    font-size: 32px;
+  }
+  .recomend-group h2 {
+    font-size: 32px;
+  }
+  .recomend-group p {
+    font-size: 32px;
+  }
+  .end h2 {
     font-size: 32px;
   }
 }
@@ -278,10 +284,19 @@ a {
   .recomend {
     font-size: 32px;
   }
+  .recomend h2 {
+    font-size: 32px;
+  }
+  .recomend p {
+    font-size: 32px;
+  }
+  .end h2 {
+    font-size: 32px;
+  }
 }
 @media (min-width: 1400px) {
   .front-text {
-    font-size: 38px;
+    font-size: 36px;
   }
   .front-text i {
     font-size: 50px;
@@ -306,7 +321,16 @@ a {
   .front-text .box-relative .box3 p {
     font-size: 56px;
   }
-  .recomend {
+  .recomend-group {
+    font-size: 38px;
+  }
+  .recomend-group h2 {
+    font-size: 38px;
+  }
+  .recomend-group p {
+    font-size: 38px;
+  }
+  .end h2 {
     font-size: 38px;
   }
 }/*# sourceMappingURL=style.css.map */
