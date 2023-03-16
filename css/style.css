@@ -48,7 +48,7 @@ a {
   padding: 10px;
   border: 2px solid black;
   border-radius: 15px;
-  background-color: rgba(216, 161, 65, 0.285);
+  background-color: #dad6d7;
 }
 .box i {
   font-size: 36px;
@@ -199,7 +199,9 @@ a {
     font-size: 32px;
   }
   .front-text i {
-    font-size: 40px;
+    font-size: 60px;
+    align-items: center;
+    margin: 0 30px 0 10px;
   }
   .front-text .box-relative {
     height: 260px;
@@ -214,19 +216,25 @@ a {
   }
   .front-text .box-relative .box1 {
     top: 10px;
+    display: flex;
+    flex-direction: row;
   }
   .front-text .box-relative .box2 {
-    top: -60px;
+    top: -50px;
+    display: flex;
+    flex-direction: row;
   }
   .front-text .box-relative .box3 {
     height: 150px;
-    top: 20px;
+    top: -10px;
   }
   .front-text .box-relative .box3 p {
     font-size: 44px;
   }
   .front-text .box-relative .box4 {
-    top: -60px;
+    top: -75px;
+    display: flex;
+    flex-direction: row;
   }
   .front-text .box-relative .box5 {
     top: -30px;
@@ -251,9 +259,6 @@ a {
   .front-text {
     font-size: 32px;
   }
-  .front-text i {
-    font-size: 44px;
-  }
   .front-text .box-relative {
     height: 260px;
   }
@@ -266,17 +271,17 @@ a {
     width: 800px;
   }
   .front-text .box-relative .box2 {
-    top: -40px;
+    top: -70px;
   }
   .front-text .box-relative .box3 {
     height: 150px;
-    top: 20px;
+    top: -5px;
   }
   .front-text .box-relative .box3 p {
     font-size: 44px;
   }
   .front-text .box-relative .box4 {
-    top: -20px;
+    top: -50px;
   }
   .front-text .box-relative .box5 {
     top: -10px;
@@ -299,7 +304,7 @@ a {
     font-size: 36px;
   }
   .front-text i {
-    font-size: 50px;
+    font-size: 70px;
   }
   .front-text .box-relative {
     height: 300px;
@@ -313,10 +318,11 @@ a {
     width: 900px;
   }
   .front-text .box-relative .box2 {
-    top: -40px;
+    top: -100px;
   }
   .front-text .box-relative .box3 {
     height: 200px;
+    top: -30px;
   }
   .front-text .box-relative .box3 p {
     font-size: 56px;
