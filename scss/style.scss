@@ -242,7 +242,9 @@ a {
 	.front-text {
 		font-size: 32px;
 		i {
-			font-size: 40px;
+			font-size: 60px;
+			align-items: center;
+			margin: 0 30px 0 10px;
 		}
 		.box-relative {
 			height: 260px;
@@ -256,19 +258,25 @@ a {
 			}
 			.box1 {
 				top: 10px;
+				display: flex;
+				flex-direction: row;
 			}
 			.box2 {
-				top: -60px;
+				top: -50px;
+				display: flex;
+				flex-direction: row;
 			}
 			.box3 {
 				height: 150px;
-				top: 20px;
+				top: -10px;
 				p {
 					font-size: 44px;
 				}
 			}
 			.box4 {
-				top: -60px;
+				top: -75px;
+				display: flex;
+				flex-direction: row;
 			}
 			.box5 {
 				top: -30px;
@@ -297,9 +305,6 @@ a {
 	}
 	.front-text {
 		font-size: 32px;
-		i {
-			font-size: 44px;
-		}
 		.box-relative {
 			height: 260px;
 			.box1,
@@ -311,17 +316,17 @@ a {
 				width: 800px;
 			}
 			.box2 {
-				top: -40px;
+				top: -70px;
 			}
 			.box3 {
 				height: 150px;
-				top: 20px;
+				top: -5px;
 				p {
 					font-size: 44px;
 				}
 			}
 			.box4 {
-				top: -20px;
+				top: -50px;
 			}
 			.box5 {
 				top: -10px;
@@ -348,7 +353,7 @@ a {
 	.front-text {
 		font-size: 36px;
 		i {
-			font-size: 50px;
+			font-size: 70px;
 		}
 		.box-relative {
 			height: 300px;
@@ -361,10 +366,11 @@ a {
 				width: 900px;
 			}
 			.box2 {
-				top: -40px;
+				top: -100px;
 			}
 			.box3 {
 				height: 200px;
+				top: -30px;
 				p {
 					font-size: 56px;
 				}
